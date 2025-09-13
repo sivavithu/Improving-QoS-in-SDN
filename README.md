@@ -50,6 +50,7 @@ ryu-manager --version
 git clone https://github.com/osrg/ryu.git
 cd ryu
 sudo python3 setup.py install
+sudo pip install eventlet==0.30.2
 ```
 
 ## Step 4: Basic Ryu Controller Application
